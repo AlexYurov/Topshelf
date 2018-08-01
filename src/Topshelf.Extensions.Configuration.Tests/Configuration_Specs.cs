@@ -564,6 +564,11 @@ namespace Topshelf.Extensions.Configuration.Tests
                 throw new NotImplementedException();
             }
 
+            public void EnableHandlePowerEvent()
+            {
+                throw new NotImplementedException();
+            }
+
             public void EnableShutdown()
             {
                 throw new NotImplementedException();
