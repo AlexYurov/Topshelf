@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Topshelf", "Topshelf\Topshelf.csproj", "{A52AD64D-6455-4A22-8CCF-581851086578}"
+	ProjectSection(ProjectDependencies) = postProject
+		{699FB86C-E57F-4750-BE0F-ACDCC3F19364} = {699FB86C-E57F-4750-BE0F-ACDCC3F19364}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{94D59671-81F3-44B9-B54D-8E5D616DB0BB}"
 EndProject
@@ -25,7 +28,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Topshelf.Extensions.Logging
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Topshelf.Extensions.Configuration.Tests", "Topshelf.Extensions.Configuration.Tests\Topshelf.Extensions.Configuration.Tests.csproj", "{98E391A8-3132-4D60-818A-A68A62254068}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopShelf.ServiceInstaller", "TopShelf.ServiceInstaller\TopShelf.ServiceInstaller.csproj", "{699FB86C-E57F-4750-BE0F-ACDCC3F19364}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopShelf.ServiceInstaller", "TopShelf.ServiceInstaller\TopShelf.ServiceInstaller.csproj", "{699FB86C-E57F-4750-BE0F-ACDCC3F19364}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
